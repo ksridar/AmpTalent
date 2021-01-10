@@ -41,6 +41,30 @@
         <h1 class="u-text u-text-1">Search from a&nbsp;huge&nbsp;<br>talent pool of:<br>
           <br>
         </h1>
+          <h2 style = "position: absolute;bottom:820px;margin-left:442px">
+              <div class="intro" id="introduction">
+                  <h1 style="display: none;"></h1>
+              </div>
+
+
+              <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+              <script type="text/javascript">
+
+                  const eArray =["Veterans", "Ex-offenders", "LGBTQ Community", "People with Disabilities",
+                      "Minority Communities", "Recent Immigrants"]
+
+                  var i = 0;
+
+                  (function displayClass(i) {
+                      $('#introduction h1').text(eArray[i]).fadeIn(1000).delay(600).fadeOut(1000, function() {
+                          displayClass((i + 1) % eArray.length);
+                      });
+                  })(0);
+
+
+
+              </script>
+          </h2>
         <h4 class="u-text u-text-2">You are a...</h4>
         <a href="BUSINESS.html" data-page-id="1881529878" class="u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style u-hover-palette-1-base u-none u-radius-50 u-btn-2">BUSINESS</a>
         <a href="CONTRACTOR.html" data-page-id="5136784" class="u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style u-hover-palette-1-base u-none u-radius-50 u-btn-3">CONTRACTOR</a>
