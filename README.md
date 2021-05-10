@@ -1,4 +1,1 @@
-# Hackathon
-
-// this is a test  
-// - Avani Karadkhedkar 
+AmpTalent website Project
